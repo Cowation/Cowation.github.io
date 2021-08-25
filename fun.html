@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="/scripts/chatbox.js"></script>
+	<title>SITE OF KNODDY</title>
+</head>
+<body>
+	<img src="/assets/logo.png" style="max-width: 100%;">
+	<ul class="nav">
+		<li>
+			<a href="index.html">home</a>
+		</li>
+		<li>
+			<a class="active" href="fun.html">fun</a>
+		</li>
+		<li>
+			<a>about</a>
+		</li>
+	</ul>
+	<div class="content">
+		<h1>welcome to the fun zone.</h1>
+		<p>
+			lotsa stuff here, like a chatbox! chat with fellow web surfers
+		</p>
+	</div>
+	<div class="content" style="display: flex; flex-direction: column;">
+		<h1>CHAT BOX</h1>
+		<p>
+			powered by discord <a href="https://discord.gg/SbhFavkcTh">https://discord.gg/SbhFavkcTh</a>
+		</p>
+		<div id="chat-box">
+
+		</div>
+		<form id="input-window" onsubmit="return sendMessage()">
+			<input id="message-box" type="text" placeholder="Message the room">
+			<input id="send-button" type="button" value=">" onclick="sendMessage()">
+		</form>
+		<input id="name-box" type=text placeholder="Display name (required)">
+	</div>
+	<footer>
+		<h3>
+			KNODDY's EPICCC WEBSITEEEE
+		</h3>
+		<p>
+			copylocked (C) 2021 get it thats not a legal term haha funi
+			ok fr copyright (C) 2021 Knoddy &lt;cow2cow4cow@gmail.com&gt; now you can't steal it!!!
+			just kidding check the LICENSE in the repo for this site. man legal stuff is boring isn't it?
+			are people hired to write this text? cause if so that must be real boring too.
+			also like why is this stuff so hard to read and always at the bottom of everything
+		</p>
+	</footer>
+</body>
+</html>
